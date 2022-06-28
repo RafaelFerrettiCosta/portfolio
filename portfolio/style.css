@@ -1,0 +1,165 @@
+body {
+  font-family: poppins;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  right: 108px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+
+li {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 1rem;
+}
+
+.tagmid {
+  display: none;
+}
+
+
+.nav_flex a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+.nav_flex a:hover {
+  border-bottom: 4px solid #70da1c;
+  border-radius: 3px;
+}
+
+.first_holder {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 3rem 1rem;
+  column-gap: 7rem;
+  row-gap: 3rem;
+}
+
+.fotop {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.main_description {
+  display: grid;
+  align-content: center;
+}
+
+.role {
+  max-width: 500px;
+  font-size: 4rem;
+  line-height: 5rem;
+  word-wrap: break-word;
+}
+
+
+.location {
+  color: rgba(0, 0, 0, 0.35);
+  margin-left: 3px;
+}
+
+
+.xp {
+  grid-row: 2 / 4;
+}
+
+.xp_desc {
+  max-width: 500px;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.xp_desc strong {
+  color: black;
+}
+
+.highlight {
+  max-width: 400px;
+  line-height: 9rem;
+  font-size: 8.2rem;
+  word-wrap: break-word;
+  text-transform: uppercase;
+}
+
+.xp h1 {
+  color: rgba(0, 0, 0, 0.15);
+}
+
+.xp_list {
+  position: relative;
+  right: 120px;
+}
+
+.date_tag {
+  text-align: end;
+  min-width: 90px;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  align-self: right;
+}
+
+.xp_holder {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: #f1f1f1;
+  padding: 10px 15px;
+  column-gap: 15px;
+  row-gap: 5px;
+}
+
+.xp_holder h1 {
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+.xp_holder p {
+  line-height: 1.2rem;
+}
+
+.xp_holder span {
+  display: inline-block;
+  background: white;
+  padding: 3px 7px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.second_holder {
+  background-color: #131214;
+  margin: 0%;
+  padding: 0%;
+}
+
+@media (max-width: 650px) {
+  .tagmid {
+    display: block;
+  }
+  .tagfull {
+    display: none;
+  }
+}
